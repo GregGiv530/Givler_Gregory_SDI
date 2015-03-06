@@ -1,6 +1,6 @@
 /*
  Gregory Givler
- 3/5/15
+ 3/6/15
  Section 00
  Day 2 Lab Expressions
   */
@@ -55,4 +55,19 @@ Discounts
 //Original Price
 var oPrice=800;
 //Discount Percentage
-var discount=.2;
+var discount=20/100;
+//Discount text string
+var discountP="20";
+//Item
+var item="laptop";
+//Sales tax
+var tax=7/100;
+//Discounted Item without tax
+var reduced=oPrice-(oPrice*discount);
+//Discounted Item with tax
+var taxOn=(oPrice*tax)+reduced;
+//Added variables to the proper inside the text string.
+console.log("Your "+item+" was originally $"+oPrice+", but after a "+discountP+"% discount, it is now $"+reduced+" without tax, and $"+taxOn+" with tax.");
+
+
+
