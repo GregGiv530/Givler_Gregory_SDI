@@ -12,7 +12,11 @@ Slices of Pie 1
  */
 
 var pizzas = 7;
-var people = 16;
+var people = 14;
 var slices = 8;
-var slicePerPerson = pizzas*slices;
-console.log(slicePerPerson);
+var slicesPerPizza = pizzas*slices;
+var slicesPerPerson = slicesPerPizza/people;
+console.log("Each person gets "+slicesPerPerson+" slices at the party.");
+
+
+
