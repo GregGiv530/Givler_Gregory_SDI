@@ -27,7 +27,7 @@ Slice of Pie 2
  */
 
 //Sparky's pieces of pizza
-var leftovers = slicesPerPizza%people;
+var leftovers = (slices*pizzas)%people;
 //Adding the total number of slices Sparky will get
 console.log("Sparky got "+leftovers+" slices of pizza.");
 
@@ -35,6 +35,11 @@ console.log("Sparky got "+leftovers+" slices of pizza.");
 Average Shopping Bill
  */
 
+//Number of weeks
+var weeks=5;
 //Amount spent over 5 weeks
-var total=1500
-var average=
+var total=1500;
+//Average per week
+var average=total/weeks;
+//Added the total spent over 5 weeks and the average per week
+console.log("You have spent a total of $"+total+" on groceries over 5 weeks. That is an average of $"+average+" per week");
