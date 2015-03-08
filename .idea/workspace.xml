@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9f5807e-09ee-4e29-8dbf-ab7bff1e3a78" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Givler_Gregory_Expressions_Assignment/Expressions_Assignment.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Givler_Gregory_Expressions_Assignment/js/Expressions_Assignment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Givler_Gregory_Expressions_Assignment/js/Expressions_Assignment.js" afterPath="$PROJECT_DIR$/Givler_Gregory_Expressions_Assignment/js/Expressions_Assignment.js" />
     </list>
     <ignored path="Givler_Gregory_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -85,8 +83,8 @@
       <file leaf-file-name="Expressions_Assignment.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Givler_Gregory_Expressions_Assignment/js/Expressions_Assignment.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45714286" vertical-offset="0" max-vertical-offset="595">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.82857144" vertical-offset="0" max-vertical-offset="595">
+              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -493,16 +491,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day 3/js/Day3Casting.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="446" max-vertical-offset="1054">
-          <caret line="52" column="60" selection-start-line="52" selection-start-column="60" selection-end-line="52" selection-end-column="60" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Givler_Gregory_Expressions_Assignment/Expressions_Assignment.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="272">
@@ -519,6 +507,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Day 3/js/Day3Casting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="446" max-vertical-offset="1054">
+          <caret line="52" column="60" selection-start-line="52" selection-start-column="60" selection-end-line="52" selection-end-column="60" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Day 3/js/Day3Prompts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="731">
@@ -531,8 +529,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Givler_Gregory_Expressions_Assignment/js/Expressions_Assignment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45714286" vertical-offset="0" max-vertical-offset="595">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.82857144" vertical-offset="0" max-vertical-offset="595">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
