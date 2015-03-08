@@ -37,7 +37,15 @@ var ticketCost=movieTicket;
 var amountSpent=Number(ticketCost)+Number(movieItems);
 console.log(amountSpent);
 
-//Math
+//Math formula for amount spent per month.
+amountSpent*=amountGone;
+console.log(amountSpent);
+
+//Math formula for the total amount spent over the year.
+var totalAmount=Number(amountSpent)*12;
+console.log(totalAmount);
+
+
 
 
 
