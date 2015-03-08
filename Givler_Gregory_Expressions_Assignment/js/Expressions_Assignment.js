@@ -42,8 +42,11 @@ amountSpent*=amountGone;
 //Math formula for the total amount spent over the year.
 var totalAmount=Number(amountSpent)*ticket_items[6];
 
+//Math formula for original price of movie tickets.
+ticketCost/=movieTicket
+
 //Final results in a texdt string for the user.
-var results=("Using the information you have provided you will spend $"+totalAmount+" at the movies over the year.");
+var results=("You said you spend $"+movieTicket+" on your "+ticket_items[0]+"/s and $"+Number(movieItems)+" on "+ticket_items[1]+", "+ticket_items[2]+" and "+ticket_items[3]+". \nYou also said you go to the movies "+amountGone+" times in a month. \nSo with the information you provided, over an entire year, you will spend $"+totalAmount+" at the movies.");
 console.log(results);
 
 
