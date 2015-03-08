@@ -11,14 +11,14 @@
 //This calculator will help the user figure out what the average monthly expenses are for going to the movies.
 
 //Array for movie ticket and expenses text strings.
-var ticket_items=["ticket","popcorn","drinks","candy","alone","people"];
+var ticket_items=["ticket","popcorn","drinks","candy","alone","people",12];
 
 //Users will enter the amount of a single movie ticket.
 var movieTicket=prompt("How much do you spend in a year at the movies? \nHow much does a single movie "+ticket_items[0]+" cost?");
 console.log(movieTicket);
 
 //Users will enter if they go alone to the movies or with people.
-var alone_people=prompt("Do you go to the movies "+ticket_items[4]+" or with "+ticket_items[5]+"? \n(If you go alone enter 1, if not enter \nthe number of people you go with.)");
+var alone_people=prompt("Do you go to the movies "+ticket_items[4]+" or pay for "+ticket_items[5]+" to come? \n(If you go alone enter 1, if not enter \nthe number of people pay for.)");
 console.log(alone_people);
 
 //Users will enter the amount they spend on popcorn, drinks and candy.
@@ -35,18 +35,16 @@ var ticketCost=movieTicket;
 
 //Math formula for adding in cost of popcorn, drinks and candy.
 var amountSpent=Number(ticketCost)+Number(movieItems);
-console.log(amountSpent);
 
 //Math formula for amount spent per month.
 amountSpent*=amountGone;
-console.log(amountSpent);
 
 //Math formula for the total amount spent over the year.
-var totalAmount=Number(amountSpent)*12;
-console.log(totalAmount);
+var totalAmount=Number(amountSpent)*ticket_items[6];
 
-
-
+//Final results in a texdt string for the user.
+var results=("Using the information you have provided you will spend $"+totalAmount+" at the movies over the year.");
+console.log(results);
 
 
 
