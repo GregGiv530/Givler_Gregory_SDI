@@ -28,3 +28,21 @@ console.log(movieItems);
 //Users will enter the number of times they go to the movies a month.
 var amountGone=prompt("How many times a month do you go to the movies?");
 console.log(amountGone);
+
+//Math formula for amount spent on tickets per peron.
+movieTicket*=alone_people;
+var ticketCost=movieTicket;
+
+//Math formula for adding in cost of popcorn, drinks and candy.
+var amountSpent=Number(ticketCost)+Number(movieItems);
+console.log(amountSpent);
+
+//Math
+
+
+
+
+
+
+
+
