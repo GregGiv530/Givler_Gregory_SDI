@@ -24,7 +24,12 @@ if(userInput==fahText){
     alert("Please enter F or C!!!");
 }
 //Variables and math formulas for converting Celsius to Fahrenheit
-var fahConCel=(fah-32)*5/9
-var celConFah=cel*9/5+32
-console.log(fahConCel);
-console.log(celConFah);
+var fahConCel=(fah-32)*5/9;
+var celConFah=cel*9/5+32;
+
+//Conditional for output
+if(fahConCel){
+    console.log("The temperature is "+fahConCel+" degrees in Celsius.")
+} else{
+    console.log("The temperature is "+celConFah+" degrees in Fahrenheit.")
+}
