@@ -10,14 +10,15 @@
 //Group 1
 //Celsius to Fahrenheit Converter
 
-//Variables for Fahrenheit and Celsius
-var userInput=prompt("Would you like to know what is what between Celsius and Fahrenheit. \nPlease enter the number followed by and F or C.");
-var fah=Number(userInput);
+//Variables for Fahrenheit and Celsius and user input for Celsius and Fahrenheit.
+var userInput=prompt("Would you like to know how to convert between \nCelsius and Fahrenheit? \nPlease enter F or C to convert either or.");
 var fahText="F";
-var cel=Number(userInput);
 var celText="C";
-if(userInput==fahText&&cel*){
-    console.log("Hello");
+//Prompts for number input to convert to Celsius and Fahrenheit.
+if(fahText){
+    var fah=prompt("Now enter the number you wish to convert into Celsius.");
+} else if(celText){
+    var cel=prompt("Now enter the number you wish to convert into Fahrenheit.");
 } else{
-    console.log("Can not compute!");
+    alert("Please enter F or C!!!");
 }
