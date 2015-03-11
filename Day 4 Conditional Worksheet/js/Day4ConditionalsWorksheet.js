@@ -64,9 +64,11 @@ if(studentInput>=95){
     console.log("You have a "+Number(studentInput)+"%, which means you have earned a(n) "+c+" in the class");
 } else if(studentInput<73&&studentInput>=70){
     console.log("You have a "+Number(studentInput)+"%, which means you have earned a(n) "+d+" in the class");
-} else(studentInput<70){
+} else{
     console.log("You have a "+Number(studentInput)+"%, which means you have earned a(n) "+f+" in the class");
 }
+
+
 
 
 
