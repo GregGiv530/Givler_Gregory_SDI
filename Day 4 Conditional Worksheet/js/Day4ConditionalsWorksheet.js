@@ -68,7 +68,14 @@ if(studentInput>=95){
     console.log("You have a "+Number(studentInput)+"%, which means you have earned a(n) "+f+" in the class");
 }
 
+//Group 3
+//Tire Pressure
 
+//User input for each front tire and each back tire
+var frontR=prompt"What is the pressure of the front right tire?";
+var frontL=prompt"What is the pressure of the front left tire?";
+var backR=prompt"What is the pressure of the back right tire?";
+var backL=prompt"what is the pressure of the back left tire?"
 
 
 
