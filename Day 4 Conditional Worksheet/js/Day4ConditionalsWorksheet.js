@@ -9,7 +9,7 @@
 
 //Group 1
 //Celsius to Fahrenheit Converter
-
+/*
 //Variables for Fahrenheit and Celsius and user input for Celsius and Fahrenheit.
 var userInput=prompt("Would you like to know how to convert between \nCelsius and Fahrenheit? \nPlease enter F or C to convert either or.");
 var fahText="F";
@@ -67,16 +67,18 @@ if(studentInput>=95){
 } else{
     console.log("You have a "+Number(studentInput)+"%, which means you have earned a(n) "+f+" in the class");
 }
-
+*/
 //Group 3
 //Tire Pressure
 
 //User input for each front tire and each back tire
-var frontR=prompt"What is the pressure of the front right tire?";
-var frontL=prompt"What is the pressure of the front left tire?";
-var backR=prompt"What is the pressure of the back right tire?";
-var backL=prompt"what is the pressure of the back left tire?"
+var frontR=prompt("What is the pressure of the front right tire?");
+var frontL=prompt("What is the pressure of the front left tire?");
+var backR=prompt("What is the pressure of the back right tire?");
+var backL=prompt("what is the pressure of the back left tire?");
 
+//Ternary for user's input that determines the final outcome.
+(Number(frontR)===Number(frontL)&&Number(backR)===Number(backL))?console.log("The tires pass spec!"):console.log("Get your tires checked out!");
 
 
 
