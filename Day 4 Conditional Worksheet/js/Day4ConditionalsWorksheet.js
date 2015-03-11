@@ -9,7 +9,7 @@
 
 //Group 1
 //Celsius to Fahrenheit Converter
-/*
+
 //Variables for Fahrenheit and Celsius and user input for Celsius and Fahrenheit.
 var userInput=prompt("Would you like to know how to convert between \nCelsius and Fahrenheit? \nPlease enter F or C to convert either or.");
 var fahText="F";
@@ -67,7 +67,7 @@ if(studentInput>=95){
 } else{
     console.log("You have a "+Number(studentInput)+"%, which means you have earned a(n) "+f+" in the class");
 }
-*/
+
 //Group 3
 //Tire Pressure
 
