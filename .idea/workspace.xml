@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c9f5807e-09ee-4e29-8dbf-ab7bff1e3a78" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 4 Conditional Worksheet/js/Day4ConditionalsWorksheet.js" afterPath="$PROJECT_DIR$/Day 4 Conditional Worksheet/js/Day4ConditionalsWorksheet.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Givler_Gregory_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,8 +83,8 @@
       <file leaf-file-name="Day4ConditionalsWorksheet.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day 4 Conditional Worksheet/js/Day4ConditionalsWorksheet.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.82857144" vertical-offset="340" max-vertical-offset="1071">
-              <caret line="49" column="10" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.82857144" vertical-offset="663" max-vertical-offset="1377">
+              <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -619,8 +618,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day 4 Conditional Worksheet/js/Day4ConditionalsWorksheet.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.82857144" vertical-offset="340" max-vertical-offset="1071">
-          <caret line="49" column="10" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.82857144" vertical-offset="663" max-vertical-offset="1377">
+          <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

@@ -49,6 +49,24 @@ var c="C";
 var d="D";
 var f="F";
 
+//Conditional to determine the letter grade
+if(studentInput>=95){
+    console.log("You have a "+Number(studentInput)+"%, which means you have earned a(n) "+aa+" in the class");
+} else if(studentInput<95&&studentInput>=90){
+    console.log("You have a "+Number(studentInput)+"%, which means you have earned a(n) "+a+" in the class");
+} else if(studentInput<90&&studentInput>=85){
+    console.log("You have a "+Number(studentInput)+"%, which means you have earned a(n) "+bb+" in the class");
+} else if(studentInput<85&&studentInput>=80){
+    console.log("You have a "+Number(studentInput)+"%, which means you have earned a(n) "+b+" in the class");
+} else if(studentInput<80&&studentInput>=76){
+    console.log("You have a "+Number(studentInput)+"%, which means you have earned a(n) "+cc+" in the class");
+} else if(studentInput<76&&studentInput>=73){
+    console.log("You have a "+Number(studentInput)+"%, which means you have earned a(n) "+c+" in the class");
+} else if(studentInput<73&&studentInput>=70){
+    console.log("You have a "+Number(studentInput)+"%, which means you have earned a(n) "+d+" in the class");
+} else(studentInput<70){
+    console.log("You have a "+Number(studentInput)+"%, which means you have earned a(n) "+f+" in the class");
+}
 
 
 
