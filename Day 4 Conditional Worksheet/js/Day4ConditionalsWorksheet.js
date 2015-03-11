@@ -23,7 +23,8 @@ if(userInput==fahText){
 } else{
     alert("Please enter F or C!!!");
 }
-//Variables and math formulas for converting Celsius to Fahrenheit
+
+//Variables and math formulas for converting Celsius to Fahrenheit and vise versa
 var fahConCel=(fah-32)*5/9;
 var celConFah=cel*9/5+32;
 
@@ -33,3 +34,24 @@ if(fahConCel){
 } else{
     console.log("The temperature is "+celConFah+" degrees in Fahrenheit.")
 }
+
+//Group 2
+//Full Sail Grade Letter Calculator
+
+//Variables for letter grade and user input
+var studentInput=prompt("What percent did you receive for the class? \nSo we can determine your letter grade.");
+var aa="A+";
+var a="A";
+var bb="B+";
+var b="B";
+var cc="C+";
+var c="C";
+var d="D";
+var f="F";
+
+
+
+
+
+
+
