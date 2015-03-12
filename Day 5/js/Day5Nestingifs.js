@@ -85,10 +85,7 @@ if(temp>=80){
         kids=prompt("Please enter ONLY yes or no!\nAre you bringing kids?");
         //Permently convert to lower case
         kids=kids.toLowerCase();
-        
     }
-
-
     //Test if we have kids
     if(kids==="no"){
         console.log("Let's see 50 Shades of Gray!");
