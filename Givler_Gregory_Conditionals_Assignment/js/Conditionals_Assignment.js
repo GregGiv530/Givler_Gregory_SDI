@@ -7,21 +7,21 @@
 
 //alert("Hello!");
 
-//Calculator for figuring out how much is spent on video games in an entire year.
+//Calculator for figuring out how much the sales tax on next gen systems in user's area will cost them and if they bought multiple systems.
 //Array for user input
 var userArray=[]
 
 //User input for what systems they have bought.(text string)
-userArray[0]=prompt("Trying to figure out how much you spent on next-gen video games this year?\nDid you buy a system this year?\n(Such as Xbox One, PS4, or Wii.)");
+userArray[0]=prompt("Trying to figure out how much sales tax will be added to your next-gen\nsystem in your area?\nDid you buy a system this year?\n(Such as Xbox One, PS4, or Wii.)");
 userArray[0]=userArray[0].toLowerCase();
 
 //Validation for user input using ternary.
-(userArray[0]=="")?userArray[0]=prompt("Please do not leave blank, enter yes or no.\nDid you buy a system this year?\n(Such as Xbox One, PS4, or Wii.)"):(userArray[0]=="no")?console.log("This calculator is useless to you if you didn't buy any consoles this year!!!"):null;
+(userArray[0]=="")?userArray[0]=prompt("Please do not leave blank, enter yes or no.\nDid you buy a system this year?\n(Such as Xbox One, PS4, or Wii.)"):(userArray[0]=="no")?console.log("This calculator is useless to you if you didn't buy any consoles!!!"):null;
 userArray[0]=userArray[0].toLowerCase();
 
 //If user inputs "no" after a blank box
 if(userArray[0]=="no"){
-    console.log("This calculator is useless to you if you didn't buy any consoles this year!!!")
+    console.log("This calculator is useless to you if you didn't buy any consoles!!!")
 }
 
 //Conditional for user's system or systems that they bought.
@@ -91,12 +91,15 @@ if(userArray[3]=="no"||userArray[3]=="No"){
     userArray[6]/=100;
     userArray[6]=Number(userArray[6])*Number(userArray[2]);
     userArray[2]=Number(userArray[2])+Number(userArray[6]);
-    //Validation to amke sure a number is entered.
+    //Validation to make sure a number is entered.
     if(isNaN(userArray[6])){
         userArray[6]=prompt("Please ONLY use numbers!!!\nWhat is the sales tax percent in your area?");
         userArray[6]/=100;
         userArray[6]=Number(userArray[6])*Number(userArray[2]);
         userArray[2]=Number(userArray[2])+Number(userArray[6]);
+        if(userArray[1]=="xbox one"||userArray[1]== "xbox 1"||userArray[1]=="xbox1"){
+            console.log("You said you bought a Xbox One and adding in your sales tax you spent"+userArray[2]+" on your system.")
+        }
     }
 }
 
