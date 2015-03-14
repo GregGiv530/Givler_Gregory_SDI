@@ -27,97 +27,86 @@ if(userArray[0]=="no"){
 }
 
 //Conditional for user's system or systems that they bought.
-if(userArray[0]=="yes"||userArray[0]=="Yes"){
-    userArray[1]=prompt("Which system did you wish to purchase?");
-    userArray[1]=userArray[1].toLowerCase();
+if(userArray[0]=="yes"||userArray[0]=="Yes") {
+    userArray[1] = prompt("Which system did you wish to purchase?");
+    userArray[1] = userArray[1].toLowerCase();
     //If user inputs Xbox One this code will run.
-    if(userArray[1]=="xbox one"||userArray[1]== "xbox 1"||userArray[1]=="xbox1"){
-        userArray[2]=prompt("How much would your Xbox One cost?");
+    if (userArray[1] == "xbox one" || userArray[1] == "xbox 1" || userArray[1] == "xbox1") {
+        userArray[2] = prompt("How much would your Xbox One cost?");
         //Validation of system cost.
-        if(isNaN(userArray[2])){
-            userArray[2]=prompt("Please ONLY enter numbers.\nHow much would your Xbox One cost?");
+        if (isNaN(userArray[2])) {
+            userArray[2] = prompt("Please ONLY enter numbers.\nHow much would your Xbox One cost?");
         }
     }
     //If user inputs Playstation 4 this code will run.
-    else if(userArray[1]=="ps4"||userArray[1]=="playstation 4"||userArray[1]=="playstation4") {
-        userArray[2]=prompt("How much would your Playstation 4 cost?");
+    else if (userArray[1] == "ps4" || userArray[1] == "playstation 4" || userArray[1] == "playstation4") {
+        userArray[2] = prompt("How much would your Playstation 4 cost?");
         //Validation of system cost.
-        if(isNaN(userArray[2])){
+        if (isNaN(userArray[2])) {
             userArray[2] = prompt("Please ONLY enter numbers.\nHow much would your Playstation 4 cost?");
         }
     }
     //If user inputs Wii this code will run.
-    else if(userArray[1]=="wii"){
-        userArray[2]=prompt("How much would your Wii cost?");
+    else if (userArray[1] == "wii") {
+        userArray[2] = prompt("How much would your Wii cost?");
         //Validation of system cost.
-        if(isNaN(userArray[2])){
+        if (isNaN(userArray[2])) {
             userArray[2] = prompt("Please ONLY enter numbers.\nHow much would your Wii cost?");
         }
-    }
-}
+    } else if (userArray[1] != "xbox one" || userArray[1] != "xbox 1" || userArray[1] != "xbox1" || userArray[1] != "ps4" || userArray[1] != "playstation 4" || userArray[1] != "playstation4" || userArray[1] != "wii") {
+        userArray[1] = prompt("(Please ONLY enter Xbox One, Playstation 4, or Wii.)\nWhich system did you wish to purchase?");
+        userArray[1] = userArray[1].toLowerCase();
+        //If user inputs Xbox One this code will run.
+        if (userArray[1] == "xbox one" || userArray[1] == "xbox 1" || userArray[1] == "xbox1") {
+            userArray[2] = prompt("How much would your Xbox One cost?");
+            //Validation of system cost.
+            if (isNaN(userArray[2])) {
+                userArray[2] = prompt("Please ONLY enter numbers.\nHow much would your Xbox One cost?");
+            }
+        }
+        //If user inputs Playstation 4 this code will run.
+        else if (userArray[1] == "ps4" || userArray[1] == "playstation 4" || userArray[1] == "playstation4") {
+            userArray[2] = prompt("How much would your Playstation 4 cost?");
+            //Validation of system cost.
+            if (isNaN(userArray[2])) {
+                userArray[2] = prompt("Please ONLY enter numbers.\nHow much would your Playstation 4 cost?");
+            }
+        }
+        //If user inputs Wii this code will run.
+        else if (userArray[1] == "wii") {
+            userArray[2] = prompt("How much would your Wii cost?");
+            //Validation of system cost.
+            if (isNaN(userArray[2])) {
+                userArray[2] = prompt("Please ONLY enter numbers.\nHow much would your Wii cost?");
+            }
 
-//Will ask user if they bought another system.
-userArray[3]=prompt("Will this be the only system you want to buy?");
-userArray[3]=userArray[3].toLocaleLowerCase();
-//Conditional for user validation
-if(userArray[3]!="no"&&userArray[3]!="yes"){
-    userArray[3]=prompt("Please enter yes or no.\nWill this be the only system you want to buy?");
-    userArray[3]=userArray[3].toLocaleLowerCase();
+        }
+    }
 }
+//Adding in cost of sales tax for user's area or purchase for one system.
+userArray[6] = prompt("What is the sales tax percent in your area?\n(Please ONLY enter the number of the percent!)");
+userArray[6] /= 100;
+userArray[6] = Number(userArray[6]) * Number(userArray[2]);
+userArray[2] = Number(userArray[2]) + Number(userArray[6]);
+//Validation to make sure a number is entered.
+if (isNaN(userArray[6])) {
+    userArray[7] = prompt("Please ONLY use numbers!!!\nWhat is the sales tax percent in your area?");
+    userArray[7] /= 100;
+    userArray[7] = Number(userArray[7]) * Number(userArray[2]);
+    userArray[2] = Number(userArray[2]) + Number(userArray[7]);
+}
+//Output if user only buys one system
+//If user only buys a Xbox One
+    if (userArray[1] == "xbox one" || userArray[1] == "xbox 1" || userArray[1] == "xbox1") {
+        console.log("You said you want to buy a Xbox One and by adding in your sales tax you would spend $" + Number(userArray[2]) + " on your system.");
+        //If user only bought a Playstation 4
+    } else if (userArray[1] == "ps4" || userArray[1] == "playstation 4" || userArray[1] == "playstation4") {
+        console.log("You said you want to buy a Playstation 4 and by adding in your sales tax you would spend $" + Number(userArray[2]) + " on your system.");
+        //If user only bought a Wii
+    } else if (userArray[1] == "wii") {
+        console.log("You said you want to buy a Wii and by adding in your sales tax you would spend $" + Number(userArray[2]) + " on your system.");
+    }
 
-//Conditional for user's system or systems that they bought.
-if(userArray[3]=="no"||userArray[3]=="No"){
-    userArray[4]=prompt("What other system do you wish to purchase?");
-    userArray[4]=userArray[4].toLowerCase();
-    //If user inputs Xbox One this code will run.
-    if(userArray[4]=="xbox one"||userArray[4]== "xbox 1"||userArray[4]=="xbox1"){
-        userArray[5]=prompt("How much would your Xbox One cost?");
-        //Validation of system cost.
-        if(isNaN(userArray[5])){
-            userArray[5]=prompt("Please ONLY enter numbers.\nHow much would your Xbox One cost?");
-        }
-    }
-    //If user inputs Playstation 4 this code will run.
-    else if(userArray[4]=="ps4"||userArray[4]=="playstation 4"||userArray[4]=="playstation4") {
-        userArray[5]=prompt("How much would your Playstation 4 cost?");
-        //Validation of system cost.
-        if(isNaN(userArray[5])){
-            userArray[5] = prompt("Please ONLY enter numbers.\nHow much would your Playstation 4 cost?");
-        }
-    }
-    //If user inputs Wii this code will run.
-    else if(userArray[4]=="wii"){
-        userArray[5]=prompt("How much would your Wii cost?");
-        //Validation of system cost.
-        if(isNaN(userArray[5])){
-            userArray[5] = prompt("Please ONLY enter numbers.\nHow much would your Wii cost?");
-        }
-    }
-}
-//Adding in cost of salse tax for user's area or purchase for one system.
-if(userArray[3]=="yes"||userArray[3]=="Yes"){
-    userArray[6]=prompt("What is the sales tax percent in your area?\n(Please ONLY enter the number of the percent!)");
-    userArray[6]/=100;
-    userArray[6]=Number(userArray[6])*Number(userArray[2]);
-    userArray[2]=Number(userArray[2])+Number(userArray[6]);
-    //Validation to make sure a number is entered.
-    if(isNaN(userArray[6])){
-        userArray[6]=prompt("Please ONLY use numbers!!!\nWhat is the sales tax percent in your area?");
-        userArray[6]/=100;
-        userArray[6]=Number(userArray[6])*Number(userArray[2]);
-        userArray[2]=Number(userArray[2])+Number(userArray[6]);
-        //Output if user only buys one system
-        if(userArray[1]=="xbox one"||userArray[1]== "xbox 1"||userArray[1]=="xbox1"){
-            console.log("You said you want to buy a Xbox One and by adding in your sales tax you would spend $"+userArray[2]+" on your system.");
-            //If user only bought a Playstation 4
-        } else if(userArray[1]=="ps4"||userArray[1]=="playstation 4"||userArray[1]=="playstation4"){
-            console.log("You said you want to buy a Playstation 4 and by adding in your sales tax you would spend $"+userArray[2]+" on your system.");
-            //If user only bought a Wii
-        } else if(userArray[1]=="wii"){
-            console.log("You said you want to buy a Wii and by adding in your sales tax you would spend $"+userArray[2]+" on your system.");
-        }
-    }
-}
 
 
 
