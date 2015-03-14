@@ -1,6 +1,6 @@
 /*
  Gregory Givler
- 3/13/2015
+ 3/14/2015
  Section 00
  Conditionals Assignment
  */
@@ -14,14 +14,12 @@ var userArray=[]
 //User input for what systems they have bought.(text string)
 userArray[0]=prompt("Trying to figure out how much sales tax will be added to your next-gen video game system purchase in your area?\n(Only for Xbox One, PS4, or Wii.)");
 userArray[0]=userArray[0].toLowerCase();
-//Test shows user is prompted with the following text string and the input is made lower cased for the users output.
 
 //Validation for user input using ternary.
 (userArray[0]=="")?userArray[0]=prompt("Please do not leave blank, enter yes or no.\nWould you like to know the cost of next-gen video game systems, plus sales tax, in your area?\n(Only for Xbox One, PS4, or Wii.)"):(userArray[0]!="yes"&&userArray[0]!="no")?userArray[0]=prompt("Please only enter yes or no.\nWould you like to know the cost of next-gen systems, plus sales tax, in your area?\n(Only for Xbox One, PS4, or Wii.)"):null;
 
-// userArray[0] = (userArray[0] =="") ? prompt() : userArray[0];
+// Makes the validation lower case
 userArray[0]=userArray[0].toLowerCase();
-//Ternary runs successfully
 
 //If user inputs "no" after a blank box
 if(userArray[0]=="no"){
@@ -86,17 +84,17 @@ if(userArray[0]=="yes"||userArray[0]=="Yes") {
     }
 }
 //Adding in cost of sales tax for user's area or purchase for one system.
-userArray[6] = prompt("What is the sales tax percent in your area?\n(Please ONLY enter the number of the percent!)");
+userArray[3] = prompt("What is the sales tax percent in your area?\n(Please ONLY enter the number of the percent!)");
 //Validation to make sure a number is entered.
-if (isNaN(userArray[6])) {
-    userArray[6] = prompt("Please ONLY use numbers!!!\nWhat is the sales tax percent in your area?");
-    userArray[6] /= 100;
-    userArray[6] = Number(userArray[6]) * Number(userArray[2]);
-    userArray[2] = Number(userArray[2]) + Number(userArray[6]);
+if (isNaN(userArray[3])) {
+    userArray[3] = prompt("Please ONLY use numbers!!!\nWhat is the sales tax percent in your area?");
+    userArray[3] /= 100;
+    userArray[3] = Number(userArray[3]) * Number(userArray[2]);
+    userArray[2] = Number(userArray[2]) + Number(userArray[3]);
 }else{
-    userArray[6] /= 100;
-    userArray[6] = Number(userArray[6]) * Number(userArray[2]);
-    userArray[2] = Number(userArray[2]) + Number(userArray[6]);
+    userArray[3] /= 100;
+    userArray[3] = Number(userArray[3]) * Number(userArray[2]);
+    userArray[2] = Number(userArray[2]) + Number(userArray[3]);
 }
 
 //Output if user only buys one system
@@ -112,7 +110,15 @@ if (userArray[1] == "xbox one" || userArray[1] == "xbox 1" || userArray[1] == "x
 }
 
 
+/*
+1.User will be prompted with userArray[0] and if the enter anything but yes or no they will be prompted and the same goes for leaving the prompt box blank. All answers will be made lower case as well. If they enter no they will get a console.log saying this calculator is useless to them.
 
+2.If the user enters yes into the userArray[0] they will then be prompted with userArray[1]. If they do not enter the right response they will be prompted with userArray[1] again with more specific instructions. If they enter the right response on the first userArray[1] or the second userArray[1] then they will be prompted with userArray[2]. Each seperate system has a validation to have them enter the correct price of the system and that will run if the user does not enter a number.
+
+3.The user will then be prompted to enter userArray[3], which is the sales tax in the user's area. If they do not enter a number a validation will occur for them to enter only numbers. After the user does that correctly the math formulas will turn userArray[3] into a decimal to add in the sales tax of the item. Then it will take that number and add it to the price of the system.
+
+4.The last step will show a console.log of what system the user bought and the total amount including sales tax.
+ */
 
 
 
