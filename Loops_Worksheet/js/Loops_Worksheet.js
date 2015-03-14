@@ -57,3 +57,19 @@ while(monkeyCat!="monkeys"&&monkeyCat!="cats"){
 console.log("YAY!!! You like "+monkeyCat+" more!!!");
 //Loop will show that the user likes monkeys or cats more if they enter monkeys or cats. Will loop if left blank, a number is entered, and if a different text is entered into the prompt.
 
+//Validation loop for numbers
+//Prompt will ask the user have many eggs are in a dozen
+var dozenEggs=prompt("How many eggs are there in a dozen?");
+
+//Loop for validation
+while(dozenEggs!=12){
+    if(dozenEggs==""){
+        dozenEggs=prompt("Please do not leave blank.\nHow many eggs are there in a dozen?");
+    } else if(isNaN(dozenEggs)){
+        dozenEggs=prompt("Please only enter the number.\nHow many eggs are there in a dozen?")
+    } else if(dozenEggs!=12){
+        dozenEggs=prompt("Incorrect!!!\nHow many eggs are there in a dozen?")
+    }
+}
+console.log("Correct!!! There are "+dozenEggs+" in a dozen")
+//The prompt will continue to pop up until the user enters the correct answer of 12.
