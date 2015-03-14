@@ -18,6 +18,8 @@ userArray[0]=userArray[0].toLowerCase();
 
 //Validation for user input using ternary.
 (userArray[0]=="")?userArray[0]=prompt("Please do not leave blank, enter yes or no.\nWould you like to know the cost of next-gen video game systems, plus sales tax, in your area?\n(Only for Xbox One, PS4, or Wii.)"):(userArray[0]!="yes"&&userArray[0]!="no")?userArray[0]=prompt("Please only enter yes or no.\nWould you like to know the cost of next-gen systems, plus sales tax, in your area?\n(Only for Xbox One, PS4, or Wii.)"):null;
+
+// userArray[0] = (userArray[0] =="") ? prompt() : userArray[0];
 userArray[0]=userArray[0].toLowerCase();
 //Ternary runs successfully
 
