@@ -44,3 +44,16 @@ for(var m=100;m<=l;m+=m){
 //Loop will run five times before moving on.
 
 //Validation for text user input
+//Variable for what their favorite animal is...a monkey or a cat
+var monkeyCat=prompt("Which animal do you like more monkeys or cats?");
+//Converts to lower case
+monkeyCat=monkeyCat.toLowerCase()
+
+//Loop for validation
+while(monkeyCat!="monkeys"&&monkeyCat!="cats"){
+    //Reprompting the user for correct input
+    monkeyCat=prompt("Please only enter monkeys or cats.\nWhich animal do you like more monkeys or cats?");
+}
+console.log("YAY!!! You like "+monkeyCat+" more!!!");
+//Loop will show that the user likes monkeys or cats more if they enter monkeys or cats. Will loop if left blank, a number is entered, and if a different text is entered into the prompt.
+
