@@ -22,7 +22,7 @@ var numBites=4;
 
 //Number of day that the CDC wants.
 var days=8;
-
+/*
 //Create for loop to calc zombie nnumber.
 for(var i=1; i<=days; i++){
     //How many new zombies get made every day.
@@ -34,7 +34,22 @@ for(var i=1; i<=days; i++){
     //Console.log the results
     console.log("There are "+newZombies+" number of zombies on day #"+i+"!");
 }
-
+*/
 
 //How long will is take to get a million zombies
 
+var numDays=1;
+
+while(numZombies<=1000000){
+    //How many new zombies get made every day.
+    var newZombies=numZombies*numBites;
+
+    //Add the new zombies to our existing horde
+    numZombies+=newZombies;
+
+    //Console.log the results
+    console.log("There are "+newZombies+" number of zombies on day #"+numDays+"!");
+
+    numDays++
+}
+console.log("It will take "+(numDays-1)+" days to reach a million zombies.");
