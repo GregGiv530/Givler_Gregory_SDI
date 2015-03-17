@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9f5807e-09ee-4e29-8dbf-ab7bff1e3a78" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 7/js/Day7Zombies.js" afterPath="$PROJECT_DIR$/Day 7/js/Day7Zombies.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day 7/Day7LoopArrays.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day 7/js/Day7LoopArrays.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Givler_Gregory_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Day7Zombies.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day 7/js/Day7Zombies.js">
+      <file leaf-file-name="Day7LoopArrays.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day 7/js/Day7LoopArrays.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8881579" vertical-offset="378" max-vertical-offset="1020">
-              <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.19572368" vertical-offset="0" max-vertical-offset="608">
+              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -38,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Day7Zombies.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day 7/Day7Zombies.html">
+      <file leaf-file-name="Day7LoopArrays.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day 7/Day7LoopArrays.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="272">
-              <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -104,6 +106,8 @@
         <option value="$PROJECT_DIR$/Day 7/js/Day7Beer.js" />
         <option value="$PROJECT_DIR$/Day 7/Day7Zombies.html" />
         <option value="$PROJECT_DIR$/Day 7/js/Day7Zombies.js" />
+        <option value="$PROJECT_DIR$/Day 7/Day7LoopArrays.html" />
+        <option value="$PROJECT_DIR$/Day 7/js/Day7LoopArrays.js" />
       </list>
     </option>
   </component>
@@ -308,20 +312,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day 4 Conditional Worksheet/js/Day4ConditionalsWorksheet.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1564">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Givler_Gregory_Expressions_Assignment/Expressions_Assignment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="272">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Givler_Gregory_Expressions_Assignment/js/Expressions_Assignment.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
@@ -675,6 +665,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8881579" vertical-offset="378" max-vertical-offset="1020">
           <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 7/Day7LoopArrays.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="272">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 7/js/Day7LoopArrays.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19572368" vertical-offset="0" max-vertical-offset="608">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
