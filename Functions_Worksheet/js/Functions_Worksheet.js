@@ -10,12 +10,14 @@
 //Circumference of a circle
 //Function for finding the circumference of a circle
 function circCircle(r){
-    circumference=2*Math.PI*r
-    return circumference
+    circumference=2*Math.PI*r;
+    return circumference;
 }
+//Variable for the radius
+var radius=10;
 
 //Variable to catch the return
-var circResults=circCircle(10);
+var circResults=circCircle(radius);
 
 //Console.log the answer
 console.log("The circumference of the circle is "+circResults+".");
@@ -26,11 +28,13 @@ console.log("The circumference of the circle is "+circResults+".");
 //Function for finding how many bee stings it takes to kill an animal of a certain weight.
 function killer(vw){
     beeStings=8.666666667*vw;
-    return beeStings
+    return beeStings;
 }
+//Variable for victims weight
+var victimsW=210;
 
 //Variable for the return
-var howMany=killer(210)
+var howMany=killer(210);
 
 //Console.log for the output of how many bees it would take to kill an animal 210 lbs.
 console.log("It takes "+howMany+" bee stings to kill this animal.");
