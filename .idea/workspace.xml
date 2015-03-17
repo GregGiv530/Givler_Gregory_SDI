@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9f5807e-09ee-4e29-8dbf-ab7bff1e3a78" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 7/js/Day7Scope.js" afterPath="$PROJECT_DIR$/Day 7/js/Day7Scope.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day 7/Day7Arguments.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day 7/js/Day7Arguments.js" />
     </list>
     <ignored path="Givler_Gregory_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,23 +27,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Day7Scope.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day 7/js/Day7Scope.js">
+      <file leaf-file-name="Day7Arguments.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day 7/js/Day7Arguments.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8322368" vertical-offset="225" max-vertical-offset="867">
-              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Day7Scope.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day 7/Day7Scope.html">
+      <file leaf-file-name="Day7Arguments.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day 7/Day7Arguments.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="272">
-              <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.14604811" vertical-offset="0" max-vertical-offset="582">
+              <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -56,8 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Day2LabExpressions/js/Day2LabExpressions.html" />
-        <option value="$PROJECT_DIR$/Day2LabExpressions/Day2LabExpressions.html" />
         <option value="$PROJECT_DIR$/Day2LabExpressions/js/script.js" />
         <option value="$PROJECT_DIR$/Day 3/Day2Arrays.html" />
         <option value="$PROJECT_DIR$/Day 3/Day3Arrays.html" />
@@ -107,6 +104,8 @@
         <option value="$PROJECT_DIR$/Day 7/js/Day7Functions.js" />
         <option value="$PROJECT_DIR$/Day 7/Day7Scope.html" />
         <option value="$PROJECT_DIR$/Day 7/js/Day7Scope.js" />
+        <option value="$PROJECT_DIR$/Day 7/js/Day7Arguments.js" />
+        <option value="$PROJECT_DIR$/Day 7/Day7Arguments.html" />
       </list>
     </option>
   </component>
@@ -311,20 +310,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day 3/js/Day3Prompts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="663">
-          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day 3/Day3Casting.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="255">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day2LabExpressions/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1343">
@@ -678,14 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day 7/Day7Scope.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="272">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day 7/js/Day7Scope.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8322368" vertical-offset="225" max-vertical-offset="867">
@@ -693,6 +670,30 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 7/Day7Scope.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14604811" vertical-offset="0" max-vertical-offset="582">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 7/js/Day7Arguments.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 7/Day7Arguments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14604811" vertical-offset="0" max-vertical-offset="582">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
