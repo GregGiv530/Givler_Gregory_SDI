@@ -78,4 +78,8 @@ var totalDis=totalCost*disPercent;
 var totalTotal=totalCost-totalDis;
 
 //Console.log for output for all user input
-console.log("You said your board would cost $"+board+", your trucks are $"+trucks+", your bearings are $"+bearings+", and your wheels cost $"+wheels+". With a discount of "+discount+"%, the total cost of your board is "+totalTotal+".");
+console.log("You said your board would cost $"+board+", your trucks would cost $"+trucks+", your bearings would cost $"+bearings+", and your wheels would cost $"+wheels+".\nBringing the total cost to $"+totalCost+". Then with the discount of %"+discount+" the cost of your custom skateboard would be $"+totalTotal+".");
+
+/*
+Test value - I entered 100 for the board, 80 for the trucks, 50 for the bearings and 65 for the wheels. This total equaled 295. Then I entered 20 for the discount and subtracted that from the total and got 236 for the final cost of the user's custom skateboard.
+ */
