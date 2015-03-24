@@ -10,7 +10,7 @@
 //Calculator for how much a custom skateboard would cost with a discount on the purchase.
 
 //Prompt for user input for cost of board
-var board=prompt("Let's find out how much it would cost to get a custom skateboard.\nHow much does your board cost?");
+var board=prompt("Let's find out how much it would cost to get a custom skateboard, with a store discount.\nHow much does your board cost?");
 //While loop for validation
 while(board===""||isNaN(board)){
     board=prompt("Please do not leave blank and only use numbers.\nHow much does your board cost?");
@@ -50,3 +50,21 @@ function costSf(board,trucks,bearings,wheels){
     var i=board+trucks+bearings+wheels;
     return i;
 }
+
+//Variable to catch the total cost of the skateboard
+var totalCost=costSf(board,trucks,bearings,wheels);
+
+//Prompt for discount
+var discount=prompt("What is the percentage of your discount?");
+//Validation loop for discount
+while(discount===""||isNaN(discount)){
+    discount=prompt("Please do not leave blank and only enter numbers.\nWhat is the percentage of your Discount?");
+}
+//parseInt for user input
+discount=parseInt(discount);
+
+//Anonymous Function for discount
+var percentCon=function(discount){
+    var conversion=discount/100;
+    return conversion;
+};
