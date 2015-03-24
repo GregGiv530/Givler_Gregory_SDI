@@ -31,7 +31,7 @@ trucks=parseInt(trucks);
 var bearings=prompt("How much do your bearings cost?");
 //While loop for validation
 while(bearings===""||isNaN(bearings)){
-    trucks=prompt("Please do not leave blank and only use numbers.\nHow much do your bearings cost?");
+    bearings=prompt("Please do not leave blank and only use numbers.\nHow much do your bearings cost?");
 }
 //parseInt for user input
 bearings=parseInt(bearings);
@@ -68,3 +68,14 @@ var percentCon=function(discount){
     var conversion=discount/100;
     return conversion;
 };
+//Variable to catch the Anonymous Function's return value
+var disPercent=percentCon(discount);
+
+//Variable to calculate the amount of the discount
+var totalDis=totalCost*disPercent;
+
+//Variable to apply the discount to the total cost
+var totalTotal=totalCost-totalDis;
+
+//Console.log for output for all user input
+console.log("You said your board would cost $"+board+", your trucks are $"+trucks+", your bearings are $"+bearings+", and your wheels cost $"+wheels+". With a discount of "+discount+"%, the total cost of your board is "+totalTotal+".");

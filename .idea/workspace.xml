@@ -29,8 +29,8 @@
       <file leaf-file-name="Givler_Gregory_Functions_Assignment.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Givler_Gregory_Functions_Assignment/js/Givler_Gregory_Functions_Assignment.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6924342" vertical-offset="667" max-vertical-offset="1309">
-              <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.8322368" vertical-offset="888" max-vertical-offset="1513">
+              <caret line="80" column="236" selection-start-line="80" selection-start-column="236" selection-end-line="80" selection-end-column="236" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -708,14 +708,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Givler_Gregory_Functions_Assignment/Givler_Gregory_Functions_Assignment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="272">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day 8/js/Day8Multiple.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="61" max-vertical-offset="1292">
@@ -726,10 +718,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Givler_Gregory_Functions_Assignment/Givler_Gregory_Functions_Assignment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="272">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Givler_Gregory_Functions_Assignment/js/Givler_Gregory_Functions_Assignment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6924342" vertical-offset="667" max-vertical-offset="1309">
-          <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.8322368" vertical-offset="888" max-vertical-offset="1513">
+          <caret line="80" column="236" selection-start-line="80" selection-start-column="236" selection-end-line="80" selection-end-column="236" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
