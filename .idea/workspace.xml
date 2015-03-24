@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9f5807e-09ee-4e29-8dbf-ab7bff1e3a78" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 8/js/Day8Procedures.js" afterPath="$PROJECT_DIR$/Day 8/js/Day8Procedures.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day 8/Day8Anon.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day 8/js/Day8Anon.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Givler_Gregory_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Day8Procedures.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day 8/js/Day8Procedures.js">
+      <file leaf-file-name="Day8Anon.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day 8/js/Day8Anon.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.81085527" vertical-offset="0" max-vertical-offset="629">
-              <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.27960527" vertical-offset="0" max-vertical-offset="608">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -38,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Day8Procedures.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day 8/Day8Procedures.html">
+      <file leaf-file-name="Day8Anon.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day 8/Day8Anon.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="272">
-              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+            <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="272">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -56,8 +58,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Day 3/js/Day3Casting.js" />
-        <option value="$PROJECT_DIR$/Day 3/js/Day3Prompts.js" />
         <option value="$PROJECT_DIR$/Givler_Gregory_Expressions_Assignment/Expressions_Assignment.html" />
         <option value="$PROJECT_DIR$/Givler_Gregory_Expressions_Assignment/js/Expressions_Assignment.js" />
         <option value="$PROJECT_DIR$/Day 4/Day4Conditionals.html" />
@@ -107,6 +107,8 @@
         <option value="$PROJECT_DIR$/Day 8/js/Day8Random.js" />
         <option value="$PROJECT_DIR$/Day 8/Day8Procedures.html" />
         <option value="$PROJECT_DIR$/Day 8/js/Day8Procedures.js" />
+        <option value="$PROJECT_DIR$/Day 8/Day8Anon.html" />
+        <option value="$PROJECT_DIR$/Day 8/js/Day8Anon.js" />
       </list>
     </option>
   </component>
@@ -311,20 +313,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day 3/Day3Arrays.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="272">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day 3/js/Day3Prompts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="731">
-          <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day 3/js/Day3Casting.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="361" max-vertical-offset="969">
@@ -674,6 +662,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.81085527" vertical-offset="0" max-vertical-offset="629">
           <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 8/Day8Anon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="272">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 8/js/Day8Anon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27960527" vertical-offset="0" max-vertical-offset="608">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
