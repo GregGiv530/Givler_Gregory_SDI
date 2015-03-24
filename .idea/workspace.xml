@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9f5807e-09ee-4e29-8dbf-ab7bff1e3a78" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 8/js/Day8Anon.js" afterPath="$PROJECT_DIR$/Day 8/js/Day8Anon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day 8/Day8Multiple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day 8/js/Day8Multiple.js" />
     </list>
     <ignored path="Givler_Gregory_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,23 +27,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Day8Anon.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day 8/js/Day8Anon.js">
+      <file leaf-file-name="Day8Multiple.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day 8/js/Day8Multiple.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.077302635" vertical-offset="480" max-vertical-offset="1088">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Day8Anon.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day 8/Day8Anon.html">
+      <file leaf-file-name="Day8Multiple.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day 8/Day8Multiple.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="272">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.17525773" vertical-offset="0" max-vertical-offset="582">
+              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -56,8 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Givler_Gregory_Expressions_Assignment/Expressions_Assignment.html" />
-        <option value="$PROJECT_DIR$/Givler_Gregory_Expressions_Assignment/js/Expressions_Assignment.js" />
         <option value="$PROJECT_DIR$/Day 4/Day4Conditionals.html" />
         <option value="$PROJECT_DIR$/Day 4/js/Day4Conditionals.js" />
         <option value="$PROJECT_DIR$/Day 4/Day4Logical.html" />
@@ -107,6 +104,8 @@
         <option value="$PROJECT_DIR$/Day 8/js/Day8Procedures.js" />
         <option value="$PROJECT_DIR$/Day 8/Day8Anon.html" />
         <option value="$PROJECT_DIR$/Day 8/js/Day8Anon.js" />
+        <option value="$PROJECT_DIR$/Day 8/js/Day8Multiple.js" />
+        <option value="$PROJECT_DIR$/Day 8/Day8Multiple.html" />
       </list>
     </option>
   </component>
@@ -311,20 +310,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day 3/js/Day3Casting.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="361" max-vertical-offset="969">
-          <caret line="52" column="60" selection-start-line="52" selection-start-column="60" selection-end-line="52" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day 3/js/Day3Arrays.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39144737" vertical-offset="0" max-vertical-offset="1224">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Givler_Gregory_Expressions_Assignment/Expressions_Assignment.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29209623" vertical-offset="0" max-vertical-offset="582">
@@ -681,6 +666,22 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 8/js/Day8Multiple.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 8/Day8Multiple.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17525773" vertical-offset="0" max-vertical-offset="582">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
