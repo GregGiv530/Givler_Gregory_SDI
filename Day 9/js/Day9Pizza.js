@@ -28,6 +28,12 @@ do{
     var pizzaSlices=prompt("How many slices are in your pizza?\nReminder only use numbers and do not leave blank.");
 } while(pizzaSlices===""||isNaN(pizzaSlices));
 
+//Function cal to lordFunction
+var results=lordFunction(pizzaRadius,pizzaCost,pizzaSlices);
+
+//Console.log info to user
+console.log("Your pizza costs $"+results[0]+" per sq inch or $"+results[1]+" per slice.");
+
 //Create a function that will run all of the other functions
 function lordFunction(radius,cost,slices){
     //Function will call the other 3 functions and then return the values
@@ -35,7 +41,10 @@ function lordFunction(radius,cost,slices){
     var area=pizzaArea(radius);
     //Call the function for square in
     var areaCost=pizzaSquareInCost(area,cost);
-    //
+    //Call the slice per price function
+    var slicePrice=pricePerSlice(slices,cost);
+    //Return these answers to our main code
+    return [areaCost,slicePrice];
 }
 
 //Function that calculates the area of pizza
