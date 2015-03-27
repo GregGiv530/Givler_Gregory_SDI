@@ -41,10 +41,12 @@ console.log(avengersNames);
 var orangesPicked=[13,350,1000];
 
 //How many oranges did we pick in total
-var totalOranges=orangesPicked[0]+orangesPicked[1]+orangesPicked[2]
+var totalOranges=orangesPicked[0]+orangesPicked[1]+orangesPicked[2];
 console.log("The total number of oranges picked is "+totalOranges+".");
-
-var averageOranges = totalOranges/3
+//Added .length instead of hard coding the array length
+var averageOranges = totalOranges/orangesPicked.length;
+//Rounded the number to only show the integer of number of oranges pick
+averageOranges=Math.round(averageOranges);
 console.log("The average number of oranges picked per day is "+averageOranges+".");
 
 //Create an array of fruit

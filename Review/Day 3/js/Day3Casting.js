@@ -45,10 +45,14 @@ console.log(c);
 //Prompts ONLY return text strings!!!!
 
 var tShirtsOwned=prompt("How many t-shirts do you currently own?");
-
+while(tShirtsOwned===""||isNaN(tShirtsOwned)){
+    tShirtsOwned=prompt("Please do not leave blank and only use numbers.\nHow many t-shirts do you currently own?")
+}
 //Ask the user how many they bought
 var tShirtsBought=prompt("How many t-shirts did you buy today?")
-
+while(tShirtsBought===""||isNaN(tShirtsBought)){
+    tShirtsBought=prompt("Please do not leave blank and only use numbers.\nHow many t-shirts did you buy today?");
+}
 //Calculate the total number of t-shirts
 var totalShirts=parseInt(tShirtsOwned)+Number(tShirtsBought);
 

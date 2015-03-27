@@ -11,6 +11,9 @@
 // prompt("text that the user will see")
 
 var userInput= prompt("Enter Year of Birth");
+while (userInput===""||isNaN(userInput)){
+    userInput=prompt("Please do not leave blank and only use numbers.\nEnter year of birth.");
+}
 console.log(userInput);
 
 //calculate the area of rectangle
@@ -21,8 +24,14 @@ console.log(userInput);
 //lets explain to them what is going on
 
 var height=prompt("Let's calculate the area of a rectangle! \nPlease enter the height of the rectangle:");
+while(height===""||isNaN(height)){
+    height=prompt("Please do not leave blank and only use numbers.\nPlease enter the height of the rectangle:");
+}
 
 var width=prompt("Please enter the width of the rectangle:");
+while(width===""||isNaN(width)){
+    width=prompt("Please do not leave blank and only use numbers.\nPlease enter the width of the rectangle:");
+}
 
 //Calculate the area of the rectangle
 
