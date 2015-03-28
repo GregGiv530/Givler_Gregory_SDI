@@ -20,6 +20,9 @@
 
 //Create a variable for our steak temperature
 var steakTemp=prompt("What is the temperature of your steak?");
+while(steakTemp===""||isNaN(steakTemp)){
+    steakTemp=prompt("Please do not leave blank and only use numbers.\nWhat is the temperature of your steak.");
+}
 
 //We have to test each of the cases above to see where our temp falls into.
 
