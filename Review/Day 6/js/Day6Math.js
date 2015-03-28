@@ -38,7 +38,7 @@ console.log(num6);
 
 //Math.random()*(max-min)+min
 //Random number between 50 and 80
-var num7=Math.round(Math.random()*(80-50)+50);
+var num7=Math.round(Math.random()*(15)+20);
 console.log(num7);
 
 //Math Object Constant
